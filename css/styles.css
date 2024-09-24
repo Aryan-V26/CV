@@ -1,5 +1,52 @@
 body {
-    background-color: #6A9AB0;
+    background-color: #C1E2A4;
     margin: 0;
     text-align: center;
+}
+
+.top-container {
+    background-color: #DEE5D4;
+    position: relative;
+    padding-top: 30px;
+}
+
+.earth {
+    height: 500px;
+    width:100%;
+    position: relative;
+    top: 5px;
+}
+
+.astronaut {
+    height: 50%;
+    width: 35%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.middle-container {
+    margin: 50px auto 50px auto ;
+}
+
+hr{
+    border-style: dotted none none none;
+    height: 2px;
+    width: 10%;
+    border-width: 10px;
+    border-color: #A5B68D;
+
+}
+
+.skill-row {
+    text-align: left;
+    margin: 50px auto 50px auto ;
+    width: 60%;
+    line-height: 1.7;
+}
+
+.code-img {
+    float: left;
+    width: 55%;
+    margin-right: 30px;
 }
